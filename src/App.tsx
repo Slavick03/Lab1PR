@@ -19,12 +19,15 @@ function App() {
 
   return (
     <div className='app'>
-      <h1>{count}</h1>
-      <div className='buttons'>
-        <button onClick={minusClick}> Deduct One </button>
-        <button onClick={resetCount}> Reset </button>
-        <button onClick={plusClick}> Add One </button>
+      <div className='card'>
+        <h1>{count}</h1>
+        <div className='buttons'>
+          <button onClick={minusClick}> Deduct One </button>
+          <button onClick={resetCount}> Reset </button>
+          <button onClick={plusClick}> Add One </button>
+        </div>
       </div>
+
 
 
     </div>
